@@ -90,7 +90,8 @@ let Util = {
   },
 
   getCookie: ( name ) => {
-    let nameOfCookie = name + "=";
+    let nameOfCookie = name + '=';
+    let endOfCookie = '';
     let x = 0;
 
     while ( x <= document.cookie.length )
